@@ -3,7 +3,7 @@
 
 / {
   keymap {
-    // compatible = "zmk,keymap";
+    compatible = "zmk,keeeymap";
 
     default_layer { // layer 0
       // ,-----------------------.
