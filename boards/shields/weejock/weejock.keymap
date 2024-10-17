@@ -1,3 +1,6 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
 / {
   keymap {
     compatible = "zmk-keymap";
@@ -11,11 +14,11 @@
       // |  0  |  :  |  .  | Spc |
       // `-----------------------'
       bindings = <
-        &kp ESC    &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_SUBTRACT
-        &kp KP_N7  &kp KP_N8      &kp KP_N9        &kp KP_PLUS
-        &kp KP_N4  &kp KP_N5      &kp KP_N6        &kp KP_EQUAL
-        &kp KP_N1  &kp KP_N2      &kp KP_N3        &kp ENTER
-        &kp KP_N0  &kp COLON      &kp KP_DOT       &kp SPACE
+        &kp ESCAPE  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_SUBTRACT
+        &kp KP_N7   &kp KP_N8      &kp KP_N9        &kp KP_PLUS
+        &kp KP_N4   &kp KP_N5      &kp KP_N6        &kp KP_EQUAL
+        &kp KP_N1   &kp KP_N2      &kp KP_N3        &kp KP_ENTER
+        &kp KP_N0   &kp COLON      &kp KP_DOT       &kp SPACE
       >;
     };
   };
