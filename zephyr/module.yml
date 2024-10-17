@@ -1,3 +1,5 @@
+---
+name: weejock-zmk
 build:
   settings:
     board_root: .

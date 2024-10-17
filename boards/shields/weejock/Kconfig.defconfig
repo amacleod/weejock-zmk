@@ -1,0 +1,6 @@
+if SHIELD_WEEJOCK
+
+config ZMK_KEYBOARD_NAME
+    default "Wee Jock"
+
+endif

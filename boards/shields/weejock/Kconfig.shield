@@ -1,0 +1,2 @@
+config SHIELD_WEEJOCK
+    def_bool $(shields_list_contains,weejock)
