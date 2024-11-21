@@ -28,18 +28,18 @@
     };
     navigation_layer { // layer 1
       // ,-----------------------.
-      // |     |     |     |     |
+      // |STUDI|     |     |     |
       // | Home| Up  | PgUp|     |
       // | Left|XXXXX|Right|     |
       // | End | Down| PgDn|     |
       // |#####| Ins |     |     |
       // `-----------------------'
       bindings = <
-        &trans    &trans    &trans     &trans
-        &kp HOME  &kp UP    &kp PG_UP  &trans
-        &kp LEFT  &none     &kp RIGHT  &trans
-        &kp END   &kp DOWN  &kp PG_DN  &trans
-        &trans    &kp INS   &trans     &trans
+        &studio_unlock  &trans    &trans     &trans
+        &kp HOME        &kp UP    &kp PG_UP  &trans
+        &kp LEFT        &none     &kp RIGHT  &trans
+        &kp END         &kp DOWN  &kp PG_DN  &trans
+        &trans          &kp INS   &trans     &trans
       >;
       display-name = "Nav";
     };
